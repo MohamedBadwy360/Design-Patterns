@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Singleton.Start", "01_Singleton.Start\01_Singleton.Start.csproj", "{CBC0BFEC-E100-4DFF-948B-1D7B3D39DC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Singleton.NonThreadSafe", "02.Singleton.NonThreadSafe\02_Singleton.NonThreadSafe.csproj", "{FA1812A2-CF71-4293-BE94-6FB4814A2D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Singleton.ThreadSafeUsingLock", "03_Singleton.ThreadSafeUsingLock\03_Singleton.ThreadSafeUsingLock.csproj", "{6F7E4BC1-30D1-46D5-82C0-01FD1B567D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Singleton.ThreadSafeUsingDoubleCheckedLock", "04_Singleton.ThreadSafeUsingDoubleCheckedLock\04_Singleton.ThreadSafeUsingDoubleCheckedLock.csproj", "{2FD08C3F-883F-4883-956E-526B45D7530B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Singleton.SingletonEagerLoading", "05_Singleton.SingletonEagerLoading\05_Singleton.SingletonEagerLoading.csproj", "{5849DE87-A284-4092-968F-EF818D59FE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Singleton.SingletonLazyLoading", "06_Singleton.SingletonLazyLoading\06_Singleton.SingletonLazyLoading.csproj", "{83F598F2-0012-47DD-9B50-93C8BE1D2975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC0BFEC-E100-4DFF-948B-1D7B3D39DC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC0BFEC-E100-4DFF-948B-1D7B3D39DC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC0BFEC-E100-4DFF-948B-1D7B3D39DC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC0BFEC-E100-4DFF-948B-1D7B3D39DC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1812A2-CF71-4293-BE94-6FB4814A2D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1812A2-CF71-4293-BE94-6FB4814A2D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1812A2-CF71-4293-BE94-6FB4814A2D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1812A2-CF71-4293-BE94-6FB4814A2D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7E4BC1-30D1-46D5-82C0-01FD1B567D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7E4BC1-30D1-46D5-82C0-01FD1B567D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7E4BC1-30D1-46D5-82C0-01FD1B567D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7E4BC1-30D1-46D5-82C0-01FD1B567D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD08C3F-883F-4883-956E-526B45D7530B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD08C3F-883F-4883-956E-526B45D7530B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD08C3F-883F-4883-956E-526B45D7530B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD08C3F-883F-4883-956E-526B45D7530B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5849DE87-A284-4092-968F-EF818D59FE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5849DE87-A284-4092-968F-EF818D59FE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5849DE87-A284-4092-968F-EF818D59FE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5849DE87-A284-4092-968F-EF818D59FE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F598F2-0012-47DD-9B50-93C8BE1D2975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F598F2-0012-47DD-9B50-93C8BE1D2975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F598F2-0012-47DD-9B50-93C8BE1D2975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F598F2-0012-47DD-9B50-93C8BE1D2975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09482DCD-0228-469D-A44F-D2365C18ADBF}
+	EndGlobalSection
+EndGlobal
